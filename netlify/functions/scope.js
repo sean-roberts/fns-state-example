@@ -1,6 +1,6 @@
 let globalCounter = 0;
 
-exports.handler = function () {
+exports.handler = async function () {
   let localCounter = 0;
   return {
     statusCode: 200,
